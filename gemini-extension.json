@@ -1,0 +1,12 @@
+{
+  "name": "tileset",
+  "version": "1.0.0",
+  "description": "Live social feeds, reviews and testimonials on any website, set up through the hosted TileSet MCP server.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "tileset": {
+      "httpUrl": "https://app.tileset.com/mcp",
+      "description": "TileSet: social feeds and review widgets for websites"
+    }
+  }
+}

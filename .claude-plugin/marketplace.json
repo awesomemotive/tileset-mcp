@@ -1,0 +1,15 @@
+{
+  "name": "tileset",
+  "owner": {
+    "name": "Smash Balloon, LLC",
+    "email": "support@tileset.com"
+  },
+  "description": "The TileSet plugin: live social feeds, reviews and testimonials on any website, set up by your agent.",
+  "plugins": [
+    {
+      "name": "tileset",
+      "source": "./",
+      "description": "Live social feeds, reviews and testimonials on any website, set up by your agent through the hosted TileSet MCP server."
+    }
+  ]
+}

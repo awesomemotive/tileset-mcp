@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tileset",
+  "version": "1.0.0",
+  "description": "Live social feeds, reviews and testimonials on any website, set up by your agent through the hosted TileSet MCP server.",
+  "author": {
+    "name": "Smash Balloon, LLC",
+    "email": "support@tileset.com",
+    "url": "https://tileset.com"
+  },
+  "homepage": "https://tileset.com",
+  "repository": "https://github.com/awesomemotive/tileset-mcp",
+  "license": "MIT",
+  "keywords": ["website", "widgets", "google reviews", "social feed", "testimonials", "embed", "link in bio", "mcp"]
+}

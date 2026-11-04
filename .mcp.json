@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tileset": {
+      "type": "http",
+      "url": "https://app.tileset.com/mcp"
+    }
+  }
+}
