@@ -3,13 +3,32 @@
   "name": "com.tileset/tileset",
   "title": "TileSet",
   "description": "Live social feeds and review widgets for any website, set up by your AI agent.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://tileset.com",
+  "repository": {
+    "url": "https://github.com/awesomemotive/tileset-mcp",
+    "source": "github"
+  },
   "icons": [
-    { "src": "https://tileset.com/icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] },
-    { "src": "https://tileset.com/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }
+    {
+      "src": "https://tileset.com/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://tileset.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
   ],
   "remotes": [
-    { "type": "streamable-http", "url": "https://app.tileset.com/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://app.tileset.com/mcp"
+    }
   ]
 }
