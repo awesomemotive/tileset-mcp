@@ -26,7 +26,7 @@ The first time your agent calls it, a browser tab opens. You sign in with Google
 | Kiro | Powers, Add Custom Power, Import power from GitHub, then paste `https://github.com/awesomemotive/tileset-mcp` |
 | Cline | Ask Cline to install TileSet from this repo. It follows [llms-install.md](llms-install.md) |
 | Lovable | Chat connectors, add a custom MCP server with the URL above and choose OAuth |
-| Anything else | `npx @tileset/cli setup` adds TileSet to Claude Code, or prints the setting to paste for Cursor, Windsurf and others |
+| Anything else | `npx @tileset/cli@0.2.1 setup` adds TileSet to Claude Code, or prints the setting to paste for Cursor, Windsurf and others |
 
 Clients that can't do the browser sign-in can send an API key instead: create one under **Agents & API** in the [TileSet dashboard](https://app.tileset.com) and send it as `Authorization: Bearer <key>`.
 
@@ -57,7 +57,7 @@ An agent sets up and runs your widgets, but it never reads your content. No tool
 
 ## Why not just write the feed code?
 
-You can, and for a feed you need in your own database, or one from a platform TileSet doesn't connect, you should. For a feed on a page, TileSet runs the parts a quick fetch script leaves out: the update schedule, the platform tokens, a last good copy kept for 30 days when a platform goes down, and a script under 10 KB that doesn't move your layout around. The honest comparison is here: [TileSet or build it yourself](https://tileset.com/docs/build-it-yourself/).
+You can, and for a feed you need in your own database, or one from a platform TileSet doesn't connect, you should. For a feed on a page, TileSet runs the parts a quick fetch script leaves out: the update schedule, the platform tokens, a last good copy kept for 30 days when a platform goes down, and a loader script of about 13 KB compressed that doesn't move your layout around. The honest comparison is here: [TileSet or build it yourself](https://tileset.com/docs/build-it-yourself/).
 
 ## Plans
 
