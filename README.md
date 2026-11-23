@@ -17,7 +17,7 @@ The first time your agent calls it, a browser tab opens. You sign in with Google
 | Client | How |
 |---|---|
 | Claude Code | `claude mcp add tileset --scope user --transport http https://app.tileset.com/mcp`, or install the plugin from this repo: `/plugin marketplace add awesomemotive/tileset-mcp`, then `/plugin install tileset@tileset` |
-| Claude (web and desktop) | Settings, Connectors, add a custom connector with the URL above |
+| Claude (web and desktop) | Settings, Connectors, search for TileSet and choose Connect. If it does not show up, add a custom connector with the URL above |
 | ChatGPT | Settings, Connectors (turn on developer mode first if your plan needs it), then a new connector with the URL above and OAuth |
 | Codex | `codex mcp add tileset --url https://app.tileset.com/mcp` |
 | Cursor | Add `{ "mcpServers": { "tileset": { "url": "https://app.tileset.com/mcp" } } }` to `~/.cursor/mcp.json` or `.cursor/mcp.json` |
