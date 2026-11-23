@@ -2,7 +2,7 @@
 
 # TileSet MCP server
 
-[TileSet](https://tileset.com) puts live social feeds, reviews and testimonials on any website with one script tag and one div. This repository is the public home of its MCP server, so you can add TileSet to your AI agent and let it set up widgets for you. Smash Balloon makes TileSet.
+[TileSet](https://tileset.com) puts live feeds on any website with one script tag and one div: your Instagram and Facebook posts, Google reviews, YouTube videos, testimonials and [more](https://tileset.com/sources/). This repository is the public home of its MCP server, so you can add TileSet to your AI agent and let it set up widgets for you. Smash Balloon makes TileSet.
 
 The server is hosted. There's nothing to install or run:
 
@@ -34,12 +34,14 @@ Step-by-step guides for each client: [Connect an AI agent](https://tileset.com/d
 
 ## Then ask for what you want
 
+- "Put my Instagram feed on the homepage as a 3-column grid."
+- "Show the latest posts from our Facebook Page on the news page."
 - "Add my Google reviews to the homepage, below the booking button."
 - "Show my latest YouTube videos on the landing page."
 - "Make me a Link in bio page with my shop link and my newest reviews."
 - "Is my TileSet widget installed on example.com/about?"
 
-The agent connects the source, builds the widget, gives you the snippet (or places it, if it can edit your site) and checks that it's live.
+The agent connects the source, builds the widget, gives you the snippet (or places it, if it can edit your site) and checks that it's live. Instagram and Facebook ask you to sign in to them once: the agent gives you the link, you approve in your browser, and it carries on. Instagram needs a professional account (Business or Creator), and Facebook shows a Page you manage.
 
 ## What the agent can do
 

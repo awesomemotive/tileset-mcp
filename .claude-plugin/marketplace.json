@@ -4,12 +4,12 @@
     "name": "Smash Balloon, LLC",
     "email": "support@tileset.com"
   },
-  "description": "The TileSet plugin: live social feeds, reviews and testimonials on any website, set up by your agent.",
+  "description": "The TileSet plugin: Instagram and Facebook feeds, Google reviews and more on any website, set up by your agent.",
   "plugins": [
     {
       "name": "tileset",
       "source": "./",
-      "description": "Live social feeds, reviews and testimonials on any website, set up by your agent through the hosted TileSet MCP server."
+      "description": "Instagram and Facebook posts, Google reviews, YouTube videos and more as live feeds on any website, set up by your agent through the hosted TileSet MCP server."
     }
   ]
 }

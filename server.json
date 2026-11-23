@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.tileset/tileset",
   "title": "TileSet",
-  "description": "Live social feeds and review widgets for any website, set up by your AI agent.",
-  "version": "1.0.1",
+  "description": "Instagram and Facebook feeds and Google reviews for any website, set up by your AI agent.",
+  "version": "1.0.2",
   "websiteUrl": "https://tileset.com",
   "repository": {
     "url": "https://github.com/awesomemotive/tileset-mcp",

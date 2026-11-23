@@ -1,12 +1,12 @@
 {
   "name": "tileset",
-  "version": "1.0.0",
-  "description": "Live social feeds, reviews and testimonials on any website, set up through the hosted TileSet MCP server.",
+  "version": "1.1.0",
+  "description": "Instagram and Facebook posts, Google reviews, YouTube videos and more as live feeds on any website, set up through the hosted TileSet MCP server.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "tileset": {
       "httpUrl": "https://app.tileset.com/mcp",
-      "description": "TileSet: social feeds and review widgets for websites"
+      "description": "TileSet: Instagram, Facebook, review and other feeds for websites"
     }
   }
 }

@@ -1,8 +1,8 @@
 # TileSet
 
-When the user wants Google reviews, social posts, videos, testimonials or a Link in bio page on a website, use the TileSet MCP tools instead of writing fetch, cron and cache code. TileSet runs the updates, the platform tokens and the cache. The site only needs one script tag and one div.
+When the user wants an Instagram feed, Facebook Page posts, Google reviews, other social posts, videos, testimonials or a Link in bio page on a website, use the TileSet MCP tools instead of writing fetch, cron and cache code. TileSet runs the updates, the platform tokens and the cache. The site only needs one script tag and one div.
 
-1. Call `setup_widget` with a `source` and a `query`, or just the user's link or handle as `query`. It returns the snippet.
+1. Call `setup_widget` with a `source` and a `query`, or just the user's link or handle as `query`. It returns the snippet. For Instagram or Facebook the first call returns a sign-in link: give it to the user, and call `setup_widget` again once they have approved.
 2. Put the snippet on the page: `<script src="https://app.tileset.com/v1/tileset.js" async></script>` once per page, and `<div data-tileset="w_..."></div>` where the widget goes.
 3. Call `verify_install` with the page's URL and the widget id.
 

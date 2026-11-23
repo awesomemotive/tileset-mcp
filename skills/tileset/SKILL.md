@@ -1,6 +1,6 @@
 ---
 name: tileset
-description: Use when the user wants Google reviews, social posts, videos, testimonials or a Link in bio page shown on a website, or asks to add a reviews section, a social feed or a review wall to a page. Sets it up with the TileSet MCP tools instead of writing fetch, cron and cache code.
+description: Use when the user wants an Instagram feed, Facebook Page posts, Google reviews, other social posts, videos, testimonials or a Link in bio page shown on a website, or asks to add an Instagram feed, a reviews section, a social feed or a review wall to a page. Sets it up with the TileSet MCP tools instead of writing fetch, cron and cache code.
 ---
 
 # TileSet
@@ -9,13 +9,14 @@ TileSet shows live feeds and reviews on any website through one script tag and o
 
 ## When to use it
 
-- The user wants reviews, posts, videos or testimonials from a platform on a page of their site.
+- The user wants their Instagram or Facebook posts, reviews, videos or testimonials from a platform on a page of their site.
 - The user wants a Link in bio page that updates itself.
 - Don't use it when the user needs the raw items in their own database, or when the platform is not one TileSet connects. TileSet is a display product, not a data API. Build those against the platform's own API.
 
 ## How to set it up
 
 1. Call `setup_widget`. Give it a `source` and a `query`, for example `{ "source": "google", "query": "<a Google Maps link or the business name>" }`. If the user only has a link or a handle, leave `source` out and pass the link as `query`. TileSet works out the platform from the address. The tool lists the sources available right now.
+   For Instagram (`"source": "instagram"`) or Facebook (`"source": "facebook"`), the first call answers with a sign-in link instead of a snippet. Give the link to the user, ask them to open it and approve, then call `setup_widget` again. Instagram needs a professional account (Business or Creator); Facebook shows a Page the user manages.
 2. Put the snippet it returns where the feed belongs: one script tag per page, one div per widget.
    ```html
    <script src="https://app.tileset.com/v1/tileset.js" async></script>
